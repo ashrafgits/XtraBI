@@ -35,7 +35,9 @@ While XtraBI is closed source, we proudly built it using modern, high-performanc
 - **Language**: [Dart](https://dart.dev/)
 - **Data Visualization**: [FL Chart](https://pub.dev/packages/fl_chart)
 - **Data Processing**: [Excel](https://pub.dev/packages/excel) / [CSV](https://pub.dev/packages/csv)
-- **UI & Performance**: [Data Table 2](https://pub.dev/packages/data_table_2)
 
 ## 📄 License & Terms
 XtraBI is provided as **Freeware**. You are free to download, install, and use this application for both personal and commercial data analysis. The source code remains proprietary and closed-source.
+
+## ✉️ Feedback & Support
+If you have any feedback, feature requests, or run into any issues while using XtraBI, I would love to hear from you! Please reach out to me at: **[skasrafkamal@outlook.com](mailto:skasrafkamal@outlook.com)**
