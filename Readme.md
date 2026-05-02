@@ -1,43 +1,93 @@
-# XtraBI 📊
+# XtraBI — Data Analysis & Visualization Platform
 
-**XtraBI** is a modern, blazing-fast Business Intelligence tool and data analysis application. It is completely **free to use** and designed to make complex data visualization incredibly simple.
+> **Upload your data. Discover insights.**
 
-![Linux Support](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Android Support](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-![Free to Use](https://img.shields.io/badge/Price-Free-brightgreen?style=for-the-badge)
+XtraBI is a powerful, cross-platform desktop and mobile application built with Flutter that lets you instantly analyze, visualize, and explore CSV and Excel datasets — no server, no cloud, no setup required.
 
-## 💡 What is XtraBI?
-XtraBI is a standalone desktop and mobile application that empowers users to easily import, analyze, and visualize their datasets (CSV & Excel) in a beautiful, highly responsive interface without needing expensive subscriptions or complex cloud setups. All data is processed locally on your device for maximum privacy and performance.
+---
 
-## ✨ What it Does
-- 📁 **Seamless Data Import**: Load massive datasets from `.csv` and `.xlsx` files securely and efficiently.
-- 📈 **Advanced Visualizations**: Generate stunning, interactive charts (line, bar, pie, and scatter plots) to uncover trends.
-- 🧮 **Automated Data Analysis**: Automatic column-level parsing to detect data types, metrics, and statistical summaries instantly.
-- 📋 **Rich Data Preview**: View and sort your raw data via highly performant, responsive data tables.
-- 📤 **Export & Share**: Quickly export your findings and visualizations natively across all operating systems.
-- 🕒 **Recent Files Management**: Pick up right where you left off with an automated recent files tracker.
+## ✨ Screenshots
 
-## 🚀 Downloads & Installation
+| Home Screen | Dashboard |
+|:-----------:|:---------:|
+| ![Home Screen](Homescreen.png) | ![Dashboard](Dashboard.png) |
 
-XtraBI is a closed-source freeware application. You do not need to compile any code to use it! Simply head over to the **[Releases](../../releases)** tab on this repository and download the installer for your platform:
+| Bar Chart | Scatter Plot |
+|:---------:|:------------:|
+| ![Bar Chart](BarChart.png) | ![Scatter Plot](Scatterplot.png) |
 
-### Linux
-- **Debian/Ubuntu**: Download the `.deb` file and install via `sudo apt install ./xtrabi_1.0.0_amd64.deb`
-- **Fedora/RedHat**: Download the `.rpm` file and install via `sudo dnf install ./xtrabi-1.0.0-2.x86_64.rpm`
-- **Other Linux (Portable)**: Download the `.tar.gz` tarball, extract it, and run the `xtrabi` executable directly.
+---
 
-### Android
-- Download the `.apk` file to your device, tap to open, and install it directly.
+## 🚀 What is XtraBI?
 
-## 🛠️ Tech Stack Used
-While XtraBI is closed source, we proudly built it using modern, high-performance open-source technologies:
-- **Core Framework**: [Flutter](https://flutter.dev/) (Compiles natively to Desktop & Mobile)
-- **Language**: [Dart](https://dart.dev/)
-- **Data Visualization**: [FL Chart](https://pub.dev/packages/fl_chart)
-- **Data Processing**: [Excel](https://pub.dev/packages/excel) / [CSV](https://pub.dev/packages/csv)
+XtraBI is a local-first data intelligence tool. Drop in a CSV or Excel file and instantly get:
 
-## 📄 License & Terms
-XtraBI is provided as **Freeware**. You are free to download, install, and use this application for both personal and commercial data analysis. The source code remains proprietary and closed-source.
+- **Statistical summaries** — min, max, mean, median, and standard deviation per column
+- **Interactive charts** — Line, Bar, Pie, and Scatter plots with beautiful dark-mode visuals
+- **Smart dashboard** — auto-detected numeric and categorical columns with mini sparklines
+- **Full data table** — scrollable, paginated preview of raw data
+- **Chart export** — save any visualization as an image
+- **Recent files** — quick access to previously analyzed datasets
 
-## ✉️ Feedback & Support
-If you have any feedback, feature requests, or run into any issues while using XtraBI, I would love to hear from you! Please reach out to me at: **[skasrafkamal@outlook.com](mailto:skasrafkamal@outlook.com)**
+---
+
+## 📦 Supported File Formats
+
+| Format | Extension |
+|--------|-----------|
+| Comma-Separated Values | `.csv` |
+| Excel Workbook | `.xlsx` |
+| Legacy Excel | `.xls` |
+
+---
+
+## 🖥️ Platform Availability
+
+| Platform | Status |
+|----------|--------|
+| 🪟 **Windows** | ✅ Available |
+| 🐧 **Linux** | ✅ Available (`.deb`, `.rpm`, `.tar.gz`) |
+| 🤖 **Android** | ✅ Available |
+| 🍎 **macOS** | 🔜 Coming Soon |
+| 📱 **iOS** | 🔜 Coming Soon |
+| 🌐 **Web** | 🔜 Coming Soon |
+
+---
+
+## 🔧 Features
+
+- 📊 **Multiple chart types** — Bar, Line, Pie, and Scatter with axis controls
+- 📈 **Column statistics** — Instant min/max/mean/median/std dev per numeric column
+- 🗂️ **Auto column detection** — Distinguishes numeric vs. categorical columns automatically
+- 📁 **Recent files** — Persistent history of loaded datasets with file size display
+- 💾 **Export charts** — Save visualizations as images
+- 🎨 **Dark mode UI** — Premium dark interface with vibrant accent colors
+- ⚡ **High performance** — Handles large datasets (tested with 1M+ row files)
+- 🔒 **Local first** — All processing happens on your device, no data leaves your machine
+
+---
+
+## 📥 Download
+
+XtraBI is **closed source but free to use**. The source code is not publicly available.
+
+👉 **Head to the [Releases](../../releases) page to download the latest version for your platform.**
+
+Pre-built packages are available for:
+- 🪟 **Windows** — `.exe` installer
+- 🐧 **Linux** — `.deb`, `.rpm`.
+- 🤖 **Android** — `.apk`
+
+---
+
+## 📄 License
+
+XtraBI is **free to use** but the source code remains proprietary and closed source. Redistribution, modification, or reverse engineering of the software is not permitted.
+
+---
+
+## 💬 Support
+
+For bug reports, feature requests, or general questions, please open an issue in the [Issues](../../issues) tab.
+
+You can also reach us directly at: **[skasrafkamal@outlook.com](mailto:skasrafkamal@outlook.com)**
